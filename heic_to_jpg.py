@@ -7,8 +7,8 @@ import pillow_heif
 from PIL import Image
 
 version = "1.0.0"
-description = "Convert heic files to jpg files"
-re_file_filter = r"*.heic"
+description = "Convert heif files to jpg files"
+re_file_filter = r"*.heif"
 
 log_format = "[%(asctime)s.%(msecs)03d] %(levelname)-8s %(name)-12s %(lineno)d %(funcName)s - %(message)s"
 log_date_format = "%Y-%m-%d %H:%M:%S"

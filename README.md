@@ -8,8 +8,11 @@ and PIL or should I say pillow supported version of [pillow](https://pillow.read
 All the cleaver stuff is done by the above two packages.
 
 I have added a simple python wrapper to allow a folder to be supplied as an argument (```--source```) and 
-a destination (```--destination```) in which to save any heic files converted to jpg. If no destination argument
+a destination (```--destination```) in which to save any ```.heic``` files converted to ```.jpg```. If no destination argument
 is supplied then the source directory is use.
+
+## Background
+High Efficiency Image Format - HEIF uses HEIC High Efficiency Image Format Container HEIC.
 
 ## Usage
 
